@@ -8,7 +8,7 @@ import engii from "./Engii.jpeg";
 import supr from "./Supr.jpg";
 import market from "./market.jpg";
 import secure from "./security.jpg";
-import drive from "./driver.jpg";
+
 import cop from "./co.jpg";
 import pet from "./pet.jpg";
 import team from "./team-leader.jpg";
