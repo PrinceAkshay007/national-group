@@ -1,0 +1,30 @@
+.banner {
+  background: url("https://images.unsplash.com/photo-1584275142335-7f7cc7ba6c23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80")
+    center center;
+  height: 50vh;
+  position: relative;
+  border-top: 1px solid black;
+}
+
+.banner__info {
+  background-color: black;
+  color: white;
+  padding-top: 2%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+  width: 300px;
+}
+
+.banner__info > h5 {
+  padding-top: 5%;
+}
+
+.banner__info > h2 {
+  padding-top: 40%;
+}
+
+.jobs {
+  padding-top: 80%;
+  padding-bottom: 25%;
+}

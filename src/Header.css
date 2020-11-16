@@ -1,0 +1,42 @@
+.header {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+.header__option {
+  font-size: 10px;
+}
+
+.header__nav {
+  display: flex;
+  flex: 1;
+  margin-left: 50%;
+  justify-content: space-evenly;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.header__OptionLineOne {
+  font-weight: 900;
+  font-size: 15px;
+  cursor: pointer;
+}

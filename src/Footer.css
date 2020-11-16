@@ -1,0 +1,44 @@
+.footer-head {
+  border-top: 1px solid lightgray;
+  background-color: #706f6f;
+  bottom: 0;
+}
+.footer {
+  display: flex;
+}
+
+.footer__logo {
+  height: 150px;
+  max-width: 100%;
+  image-resolution: 10px;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 50%;
+  line-height: 1.5;
+  margin-bottom: 7%;
+  margin-top: 2%;
+}
+
+.footer-head > p {
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.footer > address {
+  text-align: justify;
+}
+
+.footer__nav > h5 {
+  font-size: 18px;
+  padding-bottom: 2%;
+}
+
+.footer__nav > address {
+  padding-top: 2%;
+}
